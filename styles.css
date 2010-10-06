@@ -1,0 +1,42 @@
+<style TYPE="text/css">
+temp   {font-family: Arial, Helvetica, sans-serif; color: #999999; font-size: 10px}
+.footer {font-family: Arial, Helvetica, sans-serif; color: #999999; font-size: 10px}
+.small	{font-family: arial, helvetica, sans serif; color: #000000; font-size: 7px}
+.rsmall	{font-family: arial, helvetica, sans serif; color: #000000; font-size: 1px}
+.xl	{font-family: arial, helvetica, sans serif; color: #FFFFFF; font-size: 32px}
+.normal	{font-family: verdana; color: #777777; font-size: 11px}
+.black	{font-family: verdana; color: #000000; font-size: 12px}
+.blackb	{font-family: verdana; color: #000000; font-size: 18px}
+.gray	{font-family: arial, helvetica, sans serif; color: #666666; font-size: 12px}
+.blue	{font-family: arial, helvetica, sans serif; color: #000099; font-size: 18px}
+.red	{font-family: arial, helvetica, sans serif; color: #FF0000; font-size: 12px}
+.white	{font-family: verdana; color: #FFFFFF; font-size: 12px}
+.whitel	{font-family: arial, helvetica, sans serif; color: #FFFFFF; font-size: 14px}
+.whitexl {font-family: arial, helvetica, sans serif; color: #FFFFFF; font-size: 24px}
+h2 {font-family: Arial, Helvetica, sans-serif; color: #000099; font-size: 16px}
+h3 {font-family: Arial, Helvetica, sans-serif; color: #333333; font-size: 14px}
+a.normal	{font-family: verdana; color: #777777; font-size: 11px; text-decoration: none}
+a.white		{font-family: verdana; color: #FFFFFF; font-size: 12px; text-decoration: none}
+a.black		{font-family: verdana; color: #000000; font-size: 12px;}
+a.neon		{font-family: verdana; color: #FF7700; font-size: 11px; text-decoration: underline}
+a:hover.normal	{font-family: verdana; color: #333333; font-size: 11px; text-decoration: underline}
+a:hover.neon	{font-family: verdana; color: #FF7700; font-size: 11px; text-decoration: underline}
+a.small	{font-family: arial, helvetica, sans serif; color: #222222; font-size: 10px}
+a.smalln	{font-family: arial, helvetica, sans serif; color: #FF8200; font-size: 10px; text-decoration: none}
+a.smred	{font-family: arial, helvetica, sans serif; color: #222222; font-size: 10px}
+a.blue	{font-family: arial, helvetica, sans serif; color: #000099; font-size: 12px}
+a.bsma	{font-family: arial, helvetica, sans serif; color: #000099; font-size: 10px}
+ul.ulstizzo{
+	list-style-type: square;
+	list-size: 1px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 0;
+    	border-top-width: 0;
+    	padding-top: 0;
+    	margin-bottom: 0;
+    	border-bottom-width: 0;
+    	padding-bottom: 0;
+	line-height: 1.4em;
+	}
+</style>
