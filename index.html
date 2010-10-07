@@ -1,7 +1,7 @@
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 
-<title>github page of J. Bowlan</title>
+<title>github repository of John Bowlan</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <style type="text/css">
   body {overflow:scroll;}
@@ -12,8 +12,8 @@
 <table width="700" border="0" cellpadding="5" cellspacing="1">
 <tbody><tr bgcolor="white">
 <td colspan="2" valign="top" width="700" align="left" height="50">
-<span class="blue"><b>J. Bowlan<b><br></span>
-<span class="gray">github site</span>
+<span class="blue"><b>John Bowlan<b><br></span>
+<span class="gray">github repository</span>
 <br><br>
 </td>
 </tr>
@@ -31,18 +31,20 @@
 <td valign="top" width="530" align="left">
 <span class="black">
 
+<h2>Source Repositories</h2>
+
 Some things I think are interesting.  Mostly algorithms for fitting high dimensional statistical models to large datasets.  These have applications in natural-language processing / computer vision.
 
-<h2>Basic statistical algorithms (source)</h2>
+<h3>Basic statistical algorithms (source)</h3>
 One python file that contains some basic implementations of common (but powerful) statistical inference algorithms: linear least square, l2 regularized least squares, logistic regression (via the IRLS algorithm), l2 regularized logistic regression..
 
-<h2>l1 regularized least squares (<a href="http://github.com/jbowlan/pyl1ls/">source</a>)</h2>
+<h3>l1 regularized least squares (<a href="http://github.com/jbowlan/pyl1ls/">source</a>)</h3>
 L1 regularized least squares implementation using <a href="http://stat.stanford.edu/~imj/WEBLIST/2004/LarsAnnStat04.pdf">Efron, Hastie, Johnstone and Tibshirani's LARS algorithm</a>.  l1 regularization favors a sparse solution, which is has many advantages.
 
-<h2>l1 regularized logistic regression (<a href="http://github.com/jbowlan/pyl1logreg/">source</a>)</h2>
+<h3>l1 regularized logistic regression (<a href="http://github.com/jbowlan/pyl1logreg/">source</a>)</h3>
 An implementation of IRLS-LARS described in <a href="http://ai.stanford.edu/~hllee/aaai06_L1logreg.pdf">this</a> paper.  It's a pretty straightforward extension of the standard IRLS algorithm for normal logistic regression.  I'm particularly interested in how the performance of this method compares with the interior-point method described <a href="http://www.stanford.edu/~boyd/l1_logreg/">here</a>.
 
-<h2>Classical polar asymmetric rotor (<a href="http://github.com/jbowlan/asym_rotor">source</a>)</h2>
+<h3>Classical polar asymmetric rotor (<a href="http://github.com/jbowlan/asym_rotor">source</a>)</h3>
 This program calculates the rigid body motion of a heavy polar molecule in an electric field, by numerically integrating Euler's equations of motion. The quaternion representation of rotations is used.  There is no analytic solution for this system and for strong fields the motion is in unstable to chaos.  This one requires lots of numeric integrations so it is implemented in C/Python.  It uses the ODE integration routines from GSL, and uses mayavi for visualization of the motion.
 </td>
 </tr>
